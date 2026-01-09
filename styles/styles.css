@@ -113,6 +113,17 @@ nav{
     letter-spacing: 0%;
     text-align: center;
 }
+.hero-btn .trans{
+    border: 1px solid white;
+    padding: 12px 16px;
+    background-color: transparent;
+    border-radius: 4px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+}
 .hero-btn{
     margin: 0 auto;
     padding-top: 30px;
@@ -187,7 +198,7 @@ nav{
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 120px;
     align-items: center;
 }
