@@ -183,3 +183,55 @@ nav{
     padding: 20px;
     box-shadow: 0 6px 50px 0 #00000017;
 }
+#herobrain{
+    margin: 0 auto;
+    border: 1px solid red;
+    width: 1140px;
+    height: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#herobrain img .brainimg{
+    max-width: 100%;
+    height: auto;
+}
+#readytothink .readytothink-content h2{
+    color: rgba(0, 25, 49, 1);
+    font-style: Bold;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+#readytothink .readytothink-content p{
+    color: rgba(98, 115, 130, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 20px;
+}
+.btn2{
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+}
+#readytothink .readytothink-content .after-btn{
+    color: rgba(98, 115, 130, 1);
+    font-size: 9px;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.readytothink-content{
+    border-radius: 12px;
+    background: rgba(247, 246, 242, 1);
+    margin: 120px;
+    padding: 70px 30px 70px 30px;
+}
