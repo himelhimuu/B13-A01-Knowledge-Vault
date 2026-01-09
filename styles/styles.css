@@ -308,11 +308,13 @@ nav{
 }
 .ftsocial{
     color: aliceblue;
+    margin-bottom: 15px;
 }
 .fticons a:hover{
     color: #4CAF50;
 }
 .fticons{
+    margin-top: 15px;
     color: #ffffff;
     font-size: 25px;
     /* margin: 15px 15px 15px 0; */
