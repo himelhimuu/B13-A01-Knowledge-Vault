@@ -235,3 +235,14 @@ nav{
     margin: 120px;
     padding: 70px 30px 70px 30px;
 }
+#ft{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 120px;
+    background-color: var(--Style, rgba(0, 25, 49, 1));
+    /* padding: 120px 120px 30px 120px; */
+}
+footer{
+    background-color: var(--Style, rgba(0, 25, 49, 1));
+}
