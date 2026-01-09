@@ -62,7 +62,7 @@ nav{
 .early-access {
     display: flex;
     width: fit-content;
-    gap: 6px;
+    gap: 8px;
     background: #ffffff;
     padding: 8px 12px;
     border-radius: 1000px;
@@ -75,13 +75,16 @@ nav{
     letter-spacing: 0%;
     text-align: center;
 }
-/* not working .green-dot/helped from google chatgpt but cant */
-.green-dot {      
-    width: 16px;
-    height: 16px;
-    border-radius: 8px;
-    background: var(--#30B868, rgba(70, 145, 101, 1));
-    position: relative;
+/* not working .green-dot/helped from google chatgpt but cant ---lastly done  */
+.green-dot{
+    width: 8px;
+    height: 8px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    display: inline-block;
+    align-items: center;
+    margin-top: 5px;
+    box-shadow: 0 0 0 4px rgba(76, 175, 80, 0.2);
 }
 .color-green{
     color: #3fae6b;
