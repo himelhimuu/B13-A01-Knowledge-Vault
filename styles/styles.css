@@ -183,18 +183,58 @@ nav{
     padding: 20px;
     box-shadow: 0 6px 50px 0 #00000017;
 }
-#herobrain{
-    margin: 0 auto;
-    border: 1px solid red;
-    width: 1140px;
-    height: 740px;
+.herobrain-container{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 40px;
+    border: 1px solid red;
+    margin: 120px;
+    align-items: center;
 }
-#herobrain img .brainimg{
-    max-width: 100%;
-    height: auto;
+.brainimg{
+    width: 600px;
+    height: 600px;
+}
+.herotext h6{
+    color: #3fae6b;
+    font-size: 15px;
+    font-weight: 450;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+.herotext h2{
+   margin-top: 15px;
+   color: rgba(0, 25, 49, 1);
+   font-style: Bold;
+   font-size: 35px;
+   font-weight: 550;
+   line-height: 45px;
+   letter-spacing: 0%;
+   text-align: left;
+   text-transform: capitalize;
+}
+.herotext p{
+   color: rgba(98, 115, 130, 1);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 20px;
+   letter-spacing: 0%;
+   text-align: left;
+   margin-top: 15px;
+}
+#herobrain .checklist h4{
+   color: rgba(0, 25, 49, 1);
+   font-size: 12px;
+   font-weight: 450;
+   line-height: 20px;
+   letter-spacing: 0%;
+   text-align: left;
+   margin-top: 25px;
+}
+#herobrain .checklist h4 img{
+    margin-top: 20px;
 }
 #readytothink .readytothink-content h2{
     color: rgba(0, 25, 49, 1);
